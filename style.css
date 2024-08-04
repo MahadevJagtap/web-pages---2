@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: lora;
+    box-sizing: border-box;
+}
+html,body{
+         width: 100%;
+         height: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+   
+}
+.nav1{
+    height: 80px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 30px;
+}
+.nav-part-1{
+    display: flex;
+    align-items: center;
+    /* padding-left: 20px; */
+
+}
+.goli{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+  
+}
+.nav-part-2 h4{
+    font-size: 15px;
+    font-weight: 400;
+   /* background-color: aqua; */
+   
+}
+.nav-part-2{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    gap: 45px;
+    margin-right: 30px;
+}
+.nav-part-2 span{
+       color: rgb(161, 158, 158);
+       padding-left: 20px;
+
+}
+.nav2{
+    width: 100%;
+    height: 30px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    /* justify-content: ; */
+    gap: 90px;
+    padding-left:30px ;
+}
+
+.nav2 h5{
+font-size: 14px;
+font-weight: 500;
+}
+.content{
+    width: 100%;
+    height: calc(100% - 110px);
+    /* background-color: red; */
+}
+.text-content{
+   height: 40%;
+   width: 100%;
+   /* background-color: aqua; */
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 130px;
+   overflow-x: auto;
+   padding-left: 100px;
+}
+.text-content::-webkit-scrollbar {
+    background-color: transparent;
+    height: 5px;
+    
+ 
+}
+.text-content::-webkit-scrollbar-thumb {
+    background-color: orangered;
+
+}
+#elem {
+    flex-shrink: 0;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#elem h3{
+    font-size:7vw;
+    font-weight:300;
+    white-space: nowrap;
+}
+.image-content{
+    background-color: red;
+    height: 60%;
+    width: 100%;
+    display: flex;
+    overflow-x: auto;
+    
+ 
+}
+.image-content::-webkit-scrollbar{
+    display: none;
+    /* background-color: transparent; */
+
+}
+.image-content img{
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0% 15%;
+}
+
+@media (max-width:600px) {
+    .nav1{
+        height: 50px;
+        width: 100%;
+        /* background-color: red; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 5px;
+    }
+    .nav-part-1{
+        display: flex;
+        align-items: center;
+        /* padding-left: 20px; */
+    
+    }
+    .goli{
+        width: 13px;
+        height: 13px;
+        background-color: black;
+        border-radius: 50%;
+      
+    }
+    .nav-part-2 h4{
+        font-size: 8px;
+        font-weight: 400;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       /* background-color: aqua; */
+       
+    }
+    .nav-part-2{
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        gap: 15px;
+        margin-left: 50px;
+    }
+    .nav-part-2 span{
+          display: none;
+    
+    }
+
+    .nav2{
+        width: 100%;
+        height: 20px;
+        /* background-color: rgb(34, 192, 209); */
+        display: flex;
+        align-items: center;
+        /* justify-content: space-between; */
+        /* justify-content: ; */
+        gap: 7px;
+        padding-left:5px ;
+    }
+
+    
+    .nav2 h5{
+    font-size: 8px;
+    font-weight: 400;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .content{
+        width: 100%;
+        height: calc(100% - 70px);
+        /* background-color: red; */
+    }
+    .text-content{
+       height: 40%;
+       width: 100%;
+       /* background-color: aqua; */
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       gap: 130px;
+       overflow-x: auto;
+       padding-left: 100px;
+    }
+    .text-content::-webkit-scrollbar {
+        background-color: transparent;
+        height: 3px;
+        
+     
+    }
+    .text-content::-webkit-scrollbar-thumb {
+        background-color: orangered;
+    
+    }
+    #elem {
+        flex-shrink: 0;
+        height: 100%;
+        width: 35%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 60px;
+    }
+    
+    #elem h3{
+        font-size:17vw;
+        font-weight:200;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        white-space: nowrap;
+    }
+    .image-content{
+        background-color: red;
+        height: 60%;
+        width: 100%;
+        display: flex;
+        overflow-x: auto;
+        
+     
+    }
+    .image-content::-webkit-scrollbar{
+        display: none;
+        /* background-color: transparent; */
+    
+    }
+    .image-content img{
+        flex-shrink: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: 40% 15%;
+    }
+}
