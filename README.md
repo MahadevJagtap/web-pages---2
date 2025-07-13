@@ -1,1 +1,1 @@
-https://imahadxv.github.io/css-project-2/
+ https://mahadevjagtap.github.io/css-project-2/
